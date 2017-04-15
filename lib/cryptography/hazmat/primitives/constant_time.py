@@ -5,9 +5,9 @@
 from __future__ import absolute_import, division, print_function
 
 import hmac
+from cffi import _cffi_backend
 
 import abi
-
 lib = abi.load("script.module.cryptography", "_constant_time").lib
 
 if hasattr(hmac, "compare_digest"):

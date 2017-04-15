@@ -5,6 +5,7 @@
 		<import addon="script.module.idna" version="2.5"/>
 		<import addon="script.module.abi" version="0.0.1"/>
 		<import addon="script.module.six" version="1.9.0"/>
+		<import addon="script.module.cffi" version="1.10.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
