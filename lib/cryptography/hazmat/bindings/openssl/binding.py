@@ -9,12 +9,13 @@ import os
 import threading
 import types
 import warnings
+import abi
 
 from cryptography.exceptions import InternalError
 from _openssl import ffi, lib
 _openssl = abi.load("script.module.cryptography", "_openssl")
 _ffi = _openssl.ffi
-lib = _opensll.lib
+lib = _openssl.lib
 from cryptography.hazmat.bindings.openssl._conditional import CONDITIONAL_NAMES
 
 _OpenSSLError = collections.namedtuple("_OpenSSLError",

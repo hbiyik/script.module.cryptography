@@ -6,6 +6,9 @@
 		<import addon="script.module.abi" version="0.0.1"/>
 		<import addon="script.module.six" version="1.9.0"/>
 		<import addon="script.module.cffi" version="1.10.0"/>
+		<import addon="script.module.ipaddress" version="1.0.18"/>
+		<import addon="script.module.pyasn1" version="0.2.3"/>
+		<import addon="script.module.enum" version="0.4.6"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">

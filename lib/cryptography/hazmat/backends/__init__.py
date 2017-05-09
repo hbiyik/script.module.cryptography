@@ -14,7 +14,7 @@ _available_backends_list = None
 
 def _available_backends():
     global _available_backends_list
-    from openssl import backend as sslbackend
+    from .openssl import backend as sslbackend
     return [sslbackend]
 
 _default_backend = None
